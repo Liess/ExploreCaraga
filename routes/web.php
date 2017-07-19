@@ -17,3 +17,6 @@ Route::get('/', function () {
 Route::get('/Map', function () {
     return view('TouristMap');
 });
+Route::get('/Provinces', function () {
+    return view('provinces');
+});
