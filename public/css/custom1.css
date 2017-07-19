@@ -334,6 +334,7 @@ h6.font-parisienne {
 
 #mainMenu {
     float: right;
+
 }
 #mainMenu > ul {
     list-style: outside none none;
@@ -4827,7 +4828,7 @@ figure.snip1113.navy h4 {
 }
 
 #videosList {
- max-width: 600px; 
+ max-width: 600px;
   overflow: hidden;
 }
 
