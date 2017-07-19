@@ -28,65 +28,60 @@
 
 
 
-<!-- HEADER -->
-		<header id="header" class="header-logo-center">
-			<div id="header-wrap">
-				<div class="container">
+  <!-- HEADER -->
+  <header id="header" class="header-fullwidth">
+    <div id="header-wrap">
+      <div class="container">
 
-					<!--LOGO-->
-					<div id="logo">
-						<a href="home.html" class="logo" data-dark-logo="images/caragalogo.png">
-							<img src="images/caragalogo.png" alt="Polo Logo">
-						</a>
-					</div>
-					<!--END: LOGO-->
+        <!--LOGO-->
+        <div id="logo">
+          <a href="home.html" class="logo" data-dark-logo="images/caragalogo2.png">
+            <img src="images/caragalogo2.png">
+          </a>
+        </div>
+        <!--END: LOGO-->
 
-					<!--MOBILE MENU -->
-					<div class="nav-main-menu-responsive">
-						<button class="lines-button x">
-							<span class="lines"></span>
-						</button>
-					</div>
-					<!--END: MOBILE MENU -->
-
-
-					<!--NAVIGATION-->
-					<div class="navbar-collapse collapse main-menu-collapse navigation-wrap">
-						<div class="container">
-							<nav id="mainMenu" class="main-menu mega-menu">
-								<ul class="main-menu nav nav-pills">
-									<li><a href="index.html"><i class="fa fa-home"></i></a>
-									</li>
-									<li><a href="">About</a></li>
-									<li><a href="">Explore</a></li>
-									<li class="dropdown"> <a href="#">Provinces </a>
-									</li>
-											<li class="dropdown"> <a href="#">Officials </a>
-
-									</li>
+        <!--MOBILE MENU -->
+        <div class="nav-main-menu-responsive">
+          <button class="lines-button x">
+            <span class="lines"></span>
+          </button>
+        </div>
+        <!--END: MOBILE MENU -->
 
 
+        <!--NAVIGATION-->
+        <div class="navbar-collapse collapse main-menu-collapse navigation-wrap">
+          <div class="container">
+            <nav id="mainMenu" class="main-menu mega-menu">
+              <ul class="main-menu nav nav-pills">
+                <li><a href="index.html"><i class="fa fa-home"></i></a>
+                </li>
+                <li><a href="">About</a></li>
+                <li><a href="">Explore</a></li>
+                <li class="dropdown"> <a href="#">Provinces </a>
+                </li>
+                    <li class="dropdown"> <a href="#">Officials </a>
 
-													</div>
-												</div>
-											</li>
-										</ul>
-									</li>
-								</ul>
-							</nav>
-
-						</div>
-					</div>
-					<!--END: NAVIGATION-->
-				</div>
-			</div>
-			<div class="container-fluid header inner_head">
+                </li>
 
 
-</div>
-		</header>
-		<!-- END: HEADER -->
-</br>
+
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!--END: NAVIGATION-->
+      </div>
+    </div>
+  </header>
+  <!-- END: HEADER -->
+
 <div id="container">
 
 <!--categori menu-->
@@ -102,7 +97,6 @@
 <li><a href="javascript:toggleMarkers('Sport');" class="sport"><i class="fa fa-futbol-o"></i></a></li>
 <li><a href="javascript:toggleMarkers('Port');" class="port"><i class="fa fa-life-ring"></i></a></li>
 <li><a href="javascript:toggleMarkers('Bank');" class="bank"><i class="fa fa-university"></i></a></li>
-<li><a href="javascript:toggleMarkers('Post');" class="post"><i class="fa fa-envelope-o"></i></a></li>
 <li><a href="javascript:toggleMarkers('Showplace');" class="showplace"><i class="fa fa-eye"></i></a></li>
 <li><a href="javascript:toggleMarkers('Park');" class="park"><i class="fa fa-leaf"></i></a></li>
 <li class="mobile_menu"><a href="#"><i class="fa fa-bars"></i></a></li>
