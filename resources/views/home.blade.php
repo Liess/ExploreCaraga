@@ -1,6 +1,3 @@
-
-		
-		<!-- HEADER -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -46,15 +43,15 @@
     <!--VENDOR SCRIPT-->
     <script src="vendor/jquery/jquery-1.11.2.min.js"></script>
     <script src="vendor/plugins-compressed.js"></script>
-    
-    
+
+
     <!-- SLIDER REVOLUTION 5.x CSS SETTINGS -->
     <link rel="stylesheet" type="text/css" href="vendor/rs-plugin/css/settings.css">
     <link rel="stylesheet" type="text/css" href="vendor/rs-plugin/css/layers.css">
     <link rel="stylesheet" type="text/css" href="vendor/rs-plugin/css/navigation.css">
-    
+
     <link rel="stylesheet" type="text/css" href="css/rs-plugin-styles.css">
-    
+
     <!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
     <script type="text/javascript" src="vendor/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
 <script type="text/javascript" src="vendor/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
@@ -71,20 +68,20 @@
 </head>
 
 <body class="wide">
-    
+
 
     <!-- WRAPPER -->
     <div class="wrapper">
 
 		<!-- HEADER -->
-		<header id="header" class="header-logo-center">
+		<header id="header" class="header-fullwidth">
 			<div id="header-wrap">
 				<div class="container">
 
 					<!--LOGO-->
 					<div id="logo">
-						<a href="home.html" class="logo" data-dark-logo="images/caragalogo.png">
-							<img src="images/caragalogo.png" alt="Polo Logo">
+						<a href="home.html" class="logo" data-dark-logo="images/caragalogo2.png">
+							<img src="images/caragalogo2.png">
 						</a>
 					</div>
 					<!--END: LOGO-->
@@ -110,11 +107,11 @@
 									<li class="dropdown"> <a href="#">Provinces </a>
 									</li>
 											<li class="dropdown"> <a href="#">Officials </a>
-				
+
 									</li>
-									
-									
-									
+
+
+
 													</div>
 												</div>
 											</li>
@@ -141,143 +138,143 @@
 								<!-- LAYERS -->
 
 								<!-- BACKGROUND VIDEO LAYER -->
-									<div class="rs-background-video-layer" 
-									data-forcerewind="on" 
-									data-volume="mute" 
-									data-videowidth="100%" 
-									data-videoheight="100%" 
+									<div class="rs-background-video-layer"
+									data-forcerewind="on"
+									data-volume="mute"
+									data-videowidth="100%"
+									data-videoheight="100%"
 										data-videomp4="vendor/rs-plugin/examples/assets/videos/caraga.mp4"
-									data-videopreload="preload" 
-									data-videoloop="none" 
-									data-forceCover="1" 
-									data-aspectratio="16:9" 
-									data-autoplay="true" 
-									data-autoplayonlyfirsttime="false" 
-									data-nextslideatend="true" 
-										data-videoloop="loop" 
+									data-videopreload="preload"
+									data-videoloop="none"
+									data-forceCover="1"
+									data-aspectratio="16:9"
+									data-autoplay="true"
+									data-autoplayonlyfirsttime="false"
+									data-nextslideatend="true"
+										data-videoloop="loop"
 								></div>
-								
+
 								<!-- LAYER NR. 1 -->
-								<div class="tp-caption tp-shape tp-shapewrapper   rs-parallaxlevel-0" 
-									 id="slide-270-layer-10" 
-									 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-									 data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
+								<div class="tp-caption tp-shape tp-shapewrapper   rs-parallaxlevel-0"
+									 id="slide-270-layer-10"
+									 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+									 data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
 												data-width="full"
 									data-height="full"
 									data-whitespace="nowrap"
 									data-transform_idle="o:1;"
-						 
-									 data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;" 
-									 data-transform_out="s:300;s:300;" 
-									data-start="750" 
-									data-basealign="slide" 
-									data-responsive_offset="on" 
+
+									 data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"
+									 data-transform_out="s:300;s:300;"
+									data-start="750"
+									data-basealign="slide"
+									data-responsive_offset="on"
 									data-responsive="off"
-									
-									style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);"> 
+
+									style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);">
 								</div>
 
 								<!-- LAYER NR. 2 -->
-								<div class="tp-caption NotGeneric-Icon   tp-resizeme rs-parallaxlevel-0" 
-									 id="slide-270-layer-8" 
-									 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-									 data-y="['middle','middle','middle','middle']" data-voffset="['-66','-64','-78','-78']" 
+								<div class="tp-caption NotGeneric-Icon   tp-resizeme rs-parallaxlevel-0"
+									 id="slide-270-layer-8"
+									 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+									 data-y="['middle','middle','middle','middle']" data-voffset="['-66','-64','-78','-78']"
 												data-width="none"
 									data-height="none"
 									data-whitespace="nowrap"
 									data-transform_idle="o:1;"
 										data-style_hover="cursor:default;"
-						 
-									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" 
-									 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-									 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
-									 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-									data-start="1000" 
-									data-splitin="none" 
-									data-splitout="none" 
-									data-responsive_offset="on" 
 
-									
-									style="z-index: 6; white-space: nowrap;"><i class="pe-7s-film"></i> 
+									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;"
+									 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+									 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+									 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+									data-start="1000"
+									data-splitin="none"
+									data-splitout="none"
+									data-responsive_offset="on"
+
+
+									style="z-index: 6; white-space: nowrap;"><i class="pe-7s-film"></i>
 								</div>
 
 								<!-- LAYER NR. 3 -->
-								<div class="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0" 
-									 id="slide-270-layer-1" 
-									 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-									 data-y="['middle','middle','middle','middle']" data-voffset="['0','0','-22','-29']" 
+								<div class="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0"
+									 id="slide-270-layer-1"
+									 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+									 data-y="['middle','middle','middle','middle']" data-voffset="['0','0','-22','-29']"
 												data-fontsize="['70','70','70','50']"
 									data-lineheight="['70','70','70','50']"
 									data-width="none"
 									data-height="none"
 									data-whitespace="nowrap"
 									data-transform_idle="o:1;"
-						 
-									 data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" 
-									 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-									 data-mask_in="x:0px;y:0px;" 
-									 data-mask_out="x:inherit;y:inherit;" 
-									data-start="1000" 
-									data-splitin="none" 
-									data-splitout="none" 
-									data-responsive_offset="on" 
 
-									
+									 data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+									 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+									 data-mask_in="x:0px;y:0px;"
+									 data-mask_out="x:inherit;y:inherit;"
+									data-start="1000"
+									data-splitin="none"
+									data-splitout="none"
+									data-responsive_offset="on"
+
+
 									style="z-index: 7; white-space: nowrap;">A place full of wonders
 								</div>
 
 								<!-- LAYER NR. 4 -->
-								<div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0" 
-									 id="slide-270-layer-4" 
-									 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-									 data-y="['middle','middle','middle','middle']" data-voffset="['52','52','28','13']" 
+								<div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0"
+									 id="slide-270-layer-4"
+									 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+									 data-y="['middle','middle','middle','middle']" data-voffset="['52','52','28','13']"
 												data-width="none"
 									data-height="none"
 									data-whitespace="nowrap"
 									data-transform_idle="o:1;"
-						 
-									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" 
-									 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-									 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
-									 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-									data-start="1000" 
-									data-splitin="none" 
-									data-splitout="none" 
-									data-responsive_offset="on" 
 
-									
+									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;"
+									 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+									 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+									 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+									data-start="1000"
+									data-splitin="none"
+									data-splitout="none"
+									data-responsive_offset="on"
+
+
 									style="z-index: 8; white-space: nowrap;">Come and see the beauty of nature and our culture of CARAGA
 								</div>
 
 								<!-- LAYER NR. 5 -->
-								<div class="tp-caption Hero-Button rev-btn  rs-parallaxlevel-0" 
-									 id="slide-270-layer-7" 
-									 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-									 data-y="['middle','middle','middle','middle']" data-voffset="['124','124','80','65']" 
+								<div class="tp-caption Hero-Button rev-btn  rs-parallaxlevel-0"
+									 id="slide-270-layer-7"
+									 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+									 data-y="['middle','middle','middle','middle']" data-voffset="['124','124','80','65']"
 												data-width="none"
 									data-height="none"
 									data-whitespace="nowrap"
 									data-transform_idle="o:1;"
 										data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
 										data-style_hover="c:rgba(0, 0, 0, 1.00);bg:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);cursor:pointer;"
-						 
-									 data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;" 
-									 data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-									 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-									data-start="1250" 
-									data-splitin="none" 
-									data-splitout="none" 
+
+									 data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;"
+									 data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+									 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+									data-start="1250"
+									data-splitin="none"
+									data-splitout="none"
 									data-actions='[{"event":"click","action":"scrollbelow","offset":"0px"}]'
-									data-responsive_offset="on" 
+									data-responsive_offset="on"
 									data-responsive="off"
-									
-									style="z-index: 9; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">Explore Caraga 
+
+									style="z-index: 9; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">Explore Caraga
 								</div>
 							</li>
 						</ul>
 						<div class="tp-static-layers">
 						</div>
-						<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	
+						<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
 					</div>
 				</div><!-- END REVOLUTION SLIDER -->
 					<!-- PARALLAX -->
@@ -307,8 +304,8 @@
 		</section>
 		<!-- END: PARALLAX -->
 				<script type="text/javascript">
-					
-					var tpj=jQuery,			
+
+					var tpj=jQuery,
 						revapi88;
 
 					tpj(document).ready(function() {
@@ -372,9 +369,9 @@
 
                         </div>
                     </div>
-	
+
             </div>
-	
+
         </footer>
         <!-- END: FOOTER -->
 
@@ -394,5 +391,4 @@
 
 </body>
 
-</html>	
-		
+</html>
