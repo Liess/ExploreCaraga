@@ -5618,14 +5618,14 @@ Nav & Navbar
 .jumbotron p {
     float: left;
     margin-bottom: 12px;
-    width: 80%;
+    width: 82%;
 }
 .jumbotron p {
     font-size: 16px;
     margin-top: 0;
 }
 .jumbotron a.button {
-    margin-left: 22px;
+    margin-left: 70px;
     margin-top: -24px;
     position: absolute;
     right: auto;
