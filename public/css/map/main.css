@@ -2,7 +2,7 @@
 [Main.css]
 Project:        My city guide
 Version:        1
-Last change:    24/02/15 
+Last change:    24/02/15
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [Table of contents]
@@ -121,7 +121,7 @@ body.inner_page {
 }
 
 body.inner_page .bg_parallax {
-    background: url(../img/bg.jpg);
+    background: url(../../images/bg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -185,8 +185,8 @@ body.inner_page .bg_parallax {
 }
 
 .pushy .profile .log_btn:hover {
-    border: 2px solid #ffffff; 
-    color:#ffffff; 
+    border: 2px solid #ffffff;
+    color:#ffffff;
     text-decoration: none;
 }
 
@@ -2421,27 +2421,3 @@ a.green_btn:hover {
     top: 60px;
     max-width: 300px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
