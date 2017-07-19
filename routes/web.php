@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/Map', function () {
+    return view('TouristMap');
+});
