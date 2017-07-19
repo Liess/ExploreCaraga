@@ -5618,7 +5618,7 @@ Nav & Navbar
 .jumbotron p {
     float: left;
     margin-bottom: 12px;
-    width: 82%;
+    width: 100%;
 }
 .jumbotron p {
     font-size: 16px;
@@ -6750,7 +6750,7 @@ body:not(.device-lg):not(.device-md) .filter-active-title {
     transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
     width: 100%;
 }
-.portfolio-filter.portfolio-filter-classic li:hover:after, 
+.portfolio-filter.portfolio-filter-classic li:hover:after,
 .portfolio-filter.portfolio-filter-classic li:focus:after,
 .portfolio-filter.portfolio-filter-classic li.ptf-active:after {
     opacity: 1;
@@ -7470,29 +7470,29 @@ body:not(.device-xs):not(.device-xxs):not(.device-sm) .col-md-2 .product .produc
             margin: 0;
             padding: 0;
         }
-        
+
         .twitter-widget li {
             list-style: none;
             clear: both;
         }
-        
+
         .twitter-widget li img,
         .twitter-widget li .tweets_txt {
             float: left;
             margin-bottom: 10px;
         }
-        
+
         .twitter-widget li img {
             -webkit-border-radius: 30px;
             -moz-border-radius: 30px;
             border-radius: 30px;
         }
-        
+
         .twitter-widget li .tweets_txt {
             width: 350px;
             margin-left: 10px;
         }
-        
+
         .twitter-widget li .tweets_txt span {
             font-style: italic;
             color: #666;

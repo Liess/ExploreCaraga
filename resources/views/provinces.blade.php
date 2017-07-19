@@ -37,7 +37,7 @@
 
 
     <!-- Template color -->
-    <link href="css/color-variations/brown.css" rel="stylesheet" type="text/css" media="screen" title="blue">
+    <link href="css/color-variations/blue-dark.css" rel="stylesheet" type="text/css" media="screen" title="blue">
 
     <!-- LOAD GOOGLE FONTS -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,800,700,600%7CRaleway:100,300,600,700,800" rel="stylesheet" type="text/css" />
@@ -76,177 +76,176 @@
     <!-- WRAPPER -->
     <div class="wrapper">
 
-		<!-- HEADER -->
-		<header id="header" class="header-logo-center">
-			<div id="header-wrap">
-				<div class="container">
+      <!-- HEADER -->
+      <header id="header" class="header-fullwidth">
+        <div id="header-wrap">
+          <div class="container">
 
-					<!--LOGO-->
-					<div id="logo">
-						<a href="home.html" class="logo" data-dark-logo="images/caragalogo.png">
-							<img src="images/caragalogo.png" alt="Polo Logo">
-						</a>
-					</div>
-					<!--END: LOGO-->
+            <!--LOGO-->
+            <div id="logo">
+              <a href="home.html" class="logo" data-dark-logo="images/caragalogo2.png">
+                <img src="images/caragalogo2.png">
+              </a>
+            </div>
+            <!--END: LOGO-->
 
-					<!--MOBILE MENU -->
-					<div class="nav-main-menu-responsive">
-						<button class="lines-button x">
-							<span class="lines"></span>
-						</button>
-					</div>
-					<!--END: MOBILE MENU -->
-
-
-					<!--NAVIGATION-->
-					<div class="navbar-collapse collapse main-menu-collapse navigation-wrap">
-						<div class="container">
-							<nav id="mainMenu" class="main-menu mega-menu">
-								<ul class="main-menu nav nav-pills">
-									<li><a href="index.html"><i class="fa fa-home"></i></a>
-									</li>
-									<li><a href="">About</a></li>
-									<li><a href="">Explore</a></li>
-									<li class="dropdown"> <a href="#">Provinces </a>
-									</li>
-											<li class="dropdown"> <a href="#">Officials </a>
-
-									</li>
+            <!--MOBILE MENU -->
+            <div class="nav-main-menu-responsive">
+              <button class="lines-button x">
+                <span class="lines"></span>
+              </button>
+            </div>
+            <!--END: MOBILE MENU -->
 
 
+            <!--NAVIGATION-->
+            <div class="navbar-collapse collapse main-menu-collapse navigation-wrap">
+              <div class="container">
+                <nav id="mainMenu" class="main-menu mega-menu">
+                  <ul class="main-menu nav nav-pills">
+                    <li><a href="index.html"><i class="fa fa-home"></i></a>
+                    </li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Explore</a></li>
+                    <li class="dropdown"> <a href="#">Provinces </a>
+                    </li>
+                        <li class="dropdown"> <a href="#">Officials </a>
 
-													</div>
-												</div>
-											</li>
-										</ul>
-									</li>
-								</ul>
-							</nav>
-						</div>
-					</div>
-					<!--END: NAVIGATION-->
-				</div>
-			</div>
-		</header>
-		<!-- END: HEADER -->
+                    </li>
 
-        	<!-- CALL TO ACTION -->
-		<div class="jumbotron jumbotron-fullwidth background-colored text-light m-b-0">
-			<div class="container">
 
-			</br>
-				<h3>Region VIII (Caraga)</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit leo. Sed arcu mauris, scelerisque vel auctor eget, bibendum eget turpis. Etiam vitae aliquam neque. Nam feugiat pharetra neque, at tristique ligula facilisis eget. Pellentesque risus ipsum, sollicitudin a sapien consequat, porttitor molestie erat. Duis euismod placerat turpis, sed placerat ipsum ornare ac. Vestibulum at odio et mi posuere venenatis vitae nec ligula. Praesent venenatis, eros sit amet efficitur porttitor, ante nibh pharetra augue, vitae ultricies est turpis a tellus. Maecenas fringilla, purus vitae imperdiet pretium, leo sem maximus ex, at iaculis nibh libero vitae felis. Praesent ultrices, libero eu placerat dignissim, sem urna fringilla erat, vitae condimentum nisi erat sit amet magna. Proin sem nulla, ultricies ac mattis in, interdum vitae ligula. In placerat eget odio et sodales. Maecenas non diam a massa feugiat venenatis imperdiet ac mi. Suspendisse non orci ut quam imperdiet bibendum. Fusce sit amet diam pretium erat scelerisque mattis sit amet eget ante. Donec semper tempor luctus. </p>
-							<a href="#" class="button transparent rounded"><span>There are 6 provinces</span></a>
-			</div>
 
-		</div>
-				<div class="jumbotron jumbotron-fullwidth background-colored  m-b-0">
-<figure class="snip1113" style="background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample1.jpg');   border: 3px solid #666666;   height: 330px;
-  width: 600px;
-  margin-bottom: 50px; " >
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <!--END: NAVIGATION-->
+          </div>
+        </div>
+      </header>
+      <!-- END: HEADER -->
 
-<video class="thevideo" loop preload="none">
-      <source src="https://giant.gfycat.com/VerifiableTerrificHind.mp4" type="video/mp4">
-      <source src="https://giant.gfycat.com/VerifiableTerrificHind.webm" type="video/webm">
-    </video>
 
-  <figcaption>
-    <h3>Explore <span>Agusan del Norte</span></h3>
-    <h4>
-   CARAGA
-    </h4>
-  </figcaption>
 
-</figure><figure class="snip1113" style="background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample1.jpg');   border: 3px solid #666666;   height: 330px;
-  width: 600px;
-  margin-bottom: 50px;" >
+				<div class="col-xs-12 background-dark">
+          </br>
+              <div class="col-xs-2"></div>
+          <div class="col-xs-9">
+              <figure class="snip1113 blue hover" style="background-image: url('images/nagusan.jpg');    background-repeat: no-repeat;
+      background-position: center;  background-size: cover; border: 3px solid #2472a4;   height: 330px;
+              width: 600px;
+              margin-bottom: 50px; " >
+             <a href="home.html">
+            <video class="thevideo" loop preload="none">
+                  <source src="video/siargao.mkv" type="video/mp4">
 
-<video class="thevideo" loop preload="none">
-      <source src="https://giant.gfycat.com/VerifiableTerrificHind.mp4" type="video/mp4">
-      <source src="https://giant.gfycat.com/VerifiableTerrificHind.webm" type="video/webm">
-    </video>
+                </video>
 
-  <figcaption>
-    <h3>Explore <span> Agusan del Sur</span></h3>
-    <h4>
-   CARAGA
-    </h4>
-  </figcaption>
+              <figcaption>
+                <h3>Explore <span>Agusan del Norte</span></h3>
+                <h4>
+               CARAGA
+                </h4>
+              </figcaption>
+                </a>
+            </figure>
+            <figure class="snip1113 blue hover" style="background-image: url('images/sagusan.jpg');   background-repeat: no-repeat;
+    background-position: center;  background-size: cover;  border: 3px solid #2472a4;   height: 330px;
+              width: 600px;
+              margin-bottom: 50px; " >
+             <a href="home.html">
+            <video class="thevideo" loop preload="none">
+                  <source src="video/siargao.mkv" type="video/mp4">
 
-</figure><figure class="snip1113" style="background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample1.jpg');   border: 3px solid #666666;   height: 330px;
-  width: 600px;
-  margin-bottom: 50px;" >
+                </video>
 
-<video class="thevideo" loop preload="none">
-      <source src="https://giant.gfycat.com/VerifiableTerrificHind.mp4" type="video/mp4">
-      <source src="https://giant.gfycat.com/VerifiableTerrificHind.webm" type="video/webm">
-    </video>
+              <figcaption>
+                <h3>Explore <span>Agusan del sur</span></h3>
+                <h4>
+               CARAGA
+                </h4>
+              </figcaption>
+                </a>
+            </figure>
+            <figure class="snip1113 blue hover" style="background-image: url('images/dinagat.jpg');   background-repeat: no-repeat;
+    background-position: center;  background-size: cover;   border: 3px solid #2472a4;   height: 330px;
+              width: 600px;
+              margin-bottom: 50px; " >
+             <a href="home.html">
+            <video class="thevideo" loop preload="none">
+                  <source src="video/siargao.mkv" type="video/mp4">
 
-  <figcaption>
-    <h3>Explore <span>Dinagat Islands</span></h3>
-    <h4>
-   CARAGA
-    </h4>
-  </figcaption>
+                </video>
 
-</figure>
-    <figure class="snip1113" style="background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample1.jpg');   border: 3px solid #666666;   height: 330px;
-  width: 600px;
-  margin-bottom: 50px;" >
+              <figcaption>
+                <h3>Explore <span>Dinagat island</span></h3>
+                <h4>
+               CARAGA
+                </h4>
+              </figcaption>
+                </a>
+            </figure>
+            <figure class="snip1113 blue hover" style="background-image: url('images/nsurigao.jpg');   background-repeat: no-repeat;
+    background-position: center;  background-size: cover;  border: 3px solid #2472a4;   height: 330px;
+              width: 600px;
+              margin-bottom: 50px; " >
+             <a href="home.html">
+            <video class="thevideo" loop preload="none">
+                  <source src="video/siargao.mkv" type="video/mp4">
 
-<video class="thevideo" loop preload="none">
-      <source src="https://giant.gfycat.com/VerifiableTerrificHind.mp4" type="video/mp4">
-      <source src="https://giant.gfycat.com/VerifiableTerrificHind.webm" type="video/webm">
-    </video>
+                </video>
 
-  <figcaption>
-    <h3>Explore <span> Surigao del Norte</span></h3>
-    <h4>
-   CARAGA
-    </h4>
-  </figcaption>
+              <figcaption>
+                <h3>Explore <span>Surigao del norte</span></h3>
+                <h4>
+               CARAGA
+                </h4>
+              </figcaption>
+                </a>
+            </figure>
+            <figure class="snip1113 blue hover" style="background-image: url('images/ssurigao.jpg');   background-repeat: no-repeat;
+    background-position: center;  background-size: cover;  border: 3px solid #2472a4;   height: 330px;
+              width: 600px;
+              margin-bottom: 50px; " >
+             <a href="home.html">
+            <video class="thevideo" loop preload="none">
+                  <source src="video/siargao.mkv" type="video/mp4">
 
-</figure>
-        <figure class="snip1113" style="background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample1.jpg');   border: 3px solid #666666;   height: 330px;
-  width: 600px;
-  margin-bottom: 50px;" >
+                </video>
 
-<video class="thevideo" loop preload="none">
-      <source src="https://giant.gfycat.com/VerifiableTerrificHind.mp4" type="video/mp4">
-      <source src="https://giant.gfycat.com/VerifiableTerrificHind.webm" type="video/webm">
-    </video>
+              <figcaption>
+                <h3>Explore <span>Surigao del sur</span></h3>
+                <h4>
+               CARAGA
+                </h4>
+              </figcaption>
+                </a>
+            </figure>
 
-  <figcaption>
-    <h3>Explore <span> Surigao del sur</span></h3>
-    <h4>
-   CARAGA
-    </h4>
-  </figcaption>
+</div></div>
+<div class="jumbotron jumbotron-fullwidth background-colored text-light m-b-0 col-xs-12">
+  <div class="container">
 
-</figure>
+  </br>
+    <h3>Region VIII (Caraga)</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit leo. Sed arcu mauris, scelerisque vel auctor eget, bibendum eget turpis. Etiam vitae aliquam neque. Nam feugiat pharetra neque, at tristique ligula facilisis eget. Pellentesque risus ipsum, sollicitudin a sapien consequat, porttitor molestie erat. Duis euismod placerat turpis, sed placerat ipsum ornare ac. Vestibulum at odio et mi posuere venenatis vitae nec ligula. Praesent venenatis, eros sit amet efficitur porttitor, ante nibh pharetra augue, vitae ultricies est turpis a tellus. Maecenas fringilla, purus vitae imperdiet pretium, leo sem maximus ex, at iaculis nibh libero vitae felis. Praesent ultrices, libero eu placerat dignissim, sem urna fringilla erat, vitae condimentum nisi erat sit amet magna. Proin sem nulla, ultricies ac mattis in, interdum vitae ligula. In placerat eget odio et sodales. Maecenas non diam a massa feugiat venenatis imperdiet ac mi. Suspendisse non orci ut quam imperdiet bibendum. Fusce sit amet diam pretium erat scelerisque mattis sit amet eget ante. Donec semper tempor luctus.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit leo. Sed arcu mauris, scelerisque vel auctor eget, bibendum eget turpis. Etiam vitae aliquam neque. Nam feugiat pharetra neque, at tristique ligula facilisis eget. Pellentesque risus ipsum, sollicitudin a sapien consequat, porttitor molestie erat. Duis euismod placerat turpis, sed placerat ipsum ornare ac. Vestibulum at odio et mi posuere venenatis vitae nec ligula. Praesent venenatis, eros sit amet efficitur porttitor, ante nibh pharetra augue, vitae ultricies est turpis a tellus. dfsdfsdfsdfsdfsfsfs gdfggsz df sfsdfsdfsd sgfdgfdg fg dfgsf fdfgfgfd.
+    </p>
+
+  </div>
+
+
 </div>
     </div>
+
+    <!-- END: FOOTER -->
     <!-- END: WRAPPER -->
-   <!-- FOOTER -->
-        <footer class="background-dark text-grey" id="footer">
-            <div class="footer-content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12\">
-                            <div class="footer-logo float-left">
-                                <img alt="" class="logo" src="images/caragalogo.png">
-                            </div>
-                            <p style="margin-top: 12px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. Nulla varius consequat magna, id molestie ipsum volutpat quis. Suspendisse consectetur fringilla luctus. Fusce id mi diam, non ornare orci. Pellentesque ipsum erat, facilisis ut venenatis eu, sodales vel dolor.
-                            </p>
 
-                        </div>
-                    </div>
-
-            </div>
-
-        </footer>
-        <!-- END: FOOTER -->
     <!-- GO TOP BUTTON -->
     <a class="gototop gototop-button" href="#"><i class="fa fa-chevron-up"></i></a>
 
@@ -260,15 +259,16 @@
 var figure = $(".snip1113").hover( hoverVideo, hideVideo );
 
 function hoverVideo(e) {
+      $('video', this).show();
     $('video', this).get(0).play();
 }
 
 function hideVideo(e) {
     $('video', this).get(0).pause();
+        $('video', this).hide();
 }
 </script>
 
 </body>
 
 </html>
-		
