@@ -15,24 +15,24 @@
 		markersData = {
 			'Shop': [
 			{
-				name: 'Bondi Beach',
+				name: '',
 				location_latitude: 9.156333,
 				location_longitude: 125.798032,
-				map_image_url: 'images/img.png',
-				name_point: 'Vladivostok',
-				description_point: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard',
-				url_point: '02.html'
+				map_image_url: 'images/ssurigao.jpg',
+				name_point: 'Enchanted river',
+				description_point: 'The Hinatuan Enchanted River is a deep spring river on the island of Mindanao in the Philippines.',
+				url_point: '/Desc'
 			}
 			],
 			'Cinema': [
 			{
-				name: 'Bondi Beach',
+				name: '',
 				location_latitude: 9.116963,
 				location_longitude: 126.060661,
-				map_image_url: 'images/img.png',
-				name_point: 'Vladivostok',
+				map_image_url: 'images/nsurigao.jpg',
+				name_point: 'Club Tara Resort',
 				description_point: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard',
-				url_point: '02.html'
+				url_point: '/Desc'
 			}
 
 			],
@@ -41,10 +41,10 @@
 				name: 'Cronulla Beach',
 				location_latitude: 8.889173,
 				location_longitude: 126.028329,
-				map_image_url: 'images/img2.png',
-				name_point: 'Matart Group',
-				description_point: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard',
-				url_point: '02.html'
+				map_image_url: 'images/ssurigao.jpg',
+				name_point: 'Enchanted river',
+				description_point: 'The Hinatuan Enchanted River is a deep spring river on the island of Mindanao in the Philippines.',
+				url_point: '/Desc'
 			}
 
 			],
@@ -54,10 +54,10 @@
 				name: 'Bondi Beach',
 				location_latitude: 8.469321,
 				location_longitude: 125.682162,
-				map_image_url: 'images/img.png',
-				name_point: 'Vladivostok',
-				description_point: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard',
-				url_point: '02.html'
+				map_image_url: 'images/ssurigao.jpg',
+				name_point: 'Enchanted river',
+				description_point: 'The Hinatuan Enchanted River is a deep spring river on the island of Mindanao in the Philippines.',
+				url_point: '/Desc'
 			}
 			],
 
@@ -66,10 +66,10 @@
 				name: 'Bondi Beach',
 				location_latitude: 10.102574,
 				location_longitude: 125.653326,
-				map_image_url: 'images/img.png',
-				name_point: 'Vladivostok',
-				description_point: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard',
-				url_point: '02.html'
+				map_image_url: 'images/ssurigao.jpg',
+				name_point: 'Enchanted river',
+				description_point: 'The Hinatuan Enchanted River is a deep spring river on the island of Mindanao in the Philippines.',
+				url_point: '/Desc'
 			}
 			],
 
@@ -78,10 +78,10 @@
 				name: 'Bondi Beach',
 				location_latitude: 9.959612,
 				location_longitude: 126.054661,
-				map_image_url: 'images/img.png',
-				name_point: 'Vladivostok',
-				description_point: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard',
-				url_point: '02.html'
+				map_image_url: 'images/ssurigao.jpg',
+				name_point: 'Enchanted river',
+				description_point: 'The Hinatuan Enchanted River is a deep spring river on the island of Mindanao in the Philippines.',
+				url_point: '/Desc'
 			}
 			],
 
@@ -91,10 +91,10 @@
 				name: 'Cronulla Beach',
 				location_latitude: 9.842779,
 				location_longitude: 126.105366,
-				map_image_url: 'images/img.png',
-				name_point: 'Vladivostok',
+				map_image_url: 'images/nsurigao.jpg',
+				name_point: 'Club Tara Resort',
 				description_point: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard',
-				url_point: '02.html'
+				url_point: '/Desc'
 			}
 			],
 
@@ -105,10 +105,10 @@
 				name: 'Cronulla Beach',
 				location_latitude: 8.208987,
 				location_longitude: 125.601384,
-				map_image_url: 'images/img.png',
-				name_point: 'Vladivostok',
+				map_image_url: 'images/nsurigao.jpg',
+				name_point: 'Club Tara Resort',
 				description_point: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard',
-				url_point: '02.html'
+				url_point: '/Desc'
 			}
 			],
 
@@ -117,10 +117,10 @@
 				name: 'Cronulla Beach',
 				location_latitude: 8.158060,
 				location_longitude:  126.123778,
-				map_image_url: 'images/img.png',
-				name_point: 'Vladivostok',
+				map_image_url: 'images/nsurigao.jpg',
+				name_point: 'Club Tara Resort',
 				description_point: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard',
-				url_point: '02.html'
+				url_point: '/Desc'
 			}
 			]
 		};
