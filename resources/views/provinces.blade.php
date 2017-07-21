@@ -10,8 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
 
-<link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="images/favicon.ico" />
 
     <title>Explore CARAGA</title>
 
@@ -36,8 +35,8 @@
 	<![endif]-->
 
 
-    <!-- Template color -->
-    <link href="css/color-variations/blue-dark.css" rel="stylesheet" type="text/css" media="screen" title="blue">
+  <!--  color -->
+  <link href="css/color-variations/blue.css" rel="stylesheet" type="text/css" media="screen" title="blue">
 
     <!-- LOAD GOOGLE FONTS -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,800,700,600%7CRaleway:100,300,600,700,800" rel="stylesheet" type="text/css" />
@@ -77,65 +76,65 @@
     <div class="wrapper">
 
       <!-- HEADER -->
-      <header id="header" class="header-fullwidth">
-        <div id="header-wrap">
-          <div class="container">
+  		<header id="header" class="header-fullwidth">
+  			<div id="header-wrap">
+  				<div class="container">
 
-            <!--LOGO-->
-            <div id="logo">
-              <a href="home.html" class="logo" data-dark-logo="images/caragalogo2.png">
-                <img src="images/caragalogo2.png">
-              </a>
-            </div>
-            <!--END: LOGO-->
+  					<!--LOGO-->
+  					<div id="logo">
+  						<a href="home.html" class="logo" data-dark-logo="images/caragalogo2.png">
+  							<img src="images/caragalogo2.png">
+  						</a>
+  					</div>
+  					<!--END: LOGO-->
 
-            <!--MOBILE MENU -->
-            <div class="nav-main-menu-responsive">
-              <button class="lines-button x">
-                <span class="lines"></span>
-              </button>
-            </div>
-            <!--END: MOBILE MENU -->
-
-
-            <!--NAVIGATION-->
-            <div class="navbar-collapse collapse main-menu-collapse navigation-wrap">
-              <div class="container">
-                <nav id="mainMenu" class="main-menu mega-menu">
-                  <ul class="main-menu nav nav-pills">
-                    <li><a href="index.html"><i class="fa fa-home"></i></a>
-                    </li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Explore</a></li>
-                    <li class="dropdown"> <a href="#">Provinces </a>
-                    </li>
-                        <li class="dropdown"> <a href="#">Officials </a>
-
-                    </li>
+  					<!--MOBILE MENU -->
+  					<div class="nav-main-menu-responsive">
+  						<button class="lines-button x">
+  							<span class="lines"></span>
+  						</button>
+  					</div>
+  					<!--END: MOBILE MENU -->
 
 
+  					<!--NAVIGATION-->
+  					<div class="navbar-collapse collapse main-menu-collapse navigation-wrap">
+  						<div class="container">
+  							<nav id="mainMenu" class="main-menu mega-menu">
+  								<ul class="main-menu nav nav-pills">
+  									<li><a href="/">Home</a>
+  									</li>
+  									<li><a href="">About</a></li>
+  									<li class="active"> <a href="/Provinces">Provinces </a>
+                      			<li><a href="/Map">Explore</a></li>
+  									</li>
 
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-            </div>
-            <!--END: NAVIGATION-->
-          </div>
-        </div>
-      </header>
-      <!-- END: HEADER -->
+
+  									</li>
+
+
+
+  													</div>
+  												</div>
+  											</li>
+  										</ul>
+  									</li>
+  								</ul>
+  							</nav>
+  						</div>
+  					</div>
+  					<!--END: NAVIGATION-->
+  				</div>
+  			</div>
+  		</header>
+  		<!-- END: HEADER -->
 
 
 
 				<div class="col-xs-12 background-dark">
           </br>
-              <div class="col-xs-2"></div>
-          <div class="col-xs-9">
+
+          <div class="col-xs-12">
               <figure class="snip1113 blue hover" style="background-image: url('images/nagusan.jpg');    background-repeat: no-repeat;
       background-position: center;  background-size: cover; border: 3px solid #2472a4;   height: 330px;
               width: 600px;
@@ -148,24 +147,6 @@
 
               <figcaption>
                 <h3>Explore <span>Agusan del Norte</span></h3>
-                <h4>
-               CARAGA
-                </h4>
-              </figcaption>
-                </a>
-            </figure>
-            <figure class="snip1113 blue hover" style="background-image: url('images/sagusan.jpg');   background-repeat: no-repeat;
-    background-position: center;  background-size: cover;  border: 3px solid #2472a4;   height: 330px;
-              width: 600px;
-              margin-bottom: 50px; " >
-             <a href="home.html">
-            <video class="thevideo" loop preload="none">
-                  <source src="video/siargao.mkv" type="video/mp4">
-
-                </video>
-
-              <figcaption>
-                <h3>Explore <span>Agusan del sur</span></h3>
                 <h4>
                CARAGA
                 </h4>
@@ -190,6 +171,25 @@
               </figcaption>
                 </a>
             </figure>
+            <figure class="snip1113 blue hover" style="background-image: url('images/sagusan.jpg');   background-repeat: no-repeat;
+    background-position: center;  background-size: cover;  border: 3px solid #2472a4;   height: 330px;
+              width: 600px;
+              margin-bottom: 50px; " >
+             <a href="home.html">
+            <video class="thevideo" loop preload="none">
+                  <source src="video/siargao.mkv" type="video/mp4">
+
+                </video>
+
+              <figcaption>
+                <h3>Explore <span>Agusan del sur</span></h3>
+                <h4>
+               CARAGA
+                </h4>
+              </figcaption>
+                </a>
+            </figure>
+    ]
             <figure class="snip1113 blue hover" style="background-image: url('images/nsurigao.jpg');   background-repeat: no-repeat;
     background-position: center;  background-size: cover;  border: 3px solid #2472a4;   height: 330px;
               width: 600px;
@@ -226,9 +226,27 @@
               </figcaption>
                 </a>
             </figure>
+            <figure class="snip1113 blue hover" style="background-image: url('images/ssurigao.jpg');   background-repeat: no-repeat;
+    background-position: center;  background-size: cover;  border: 3px solid #2472a4;   height: 330px;
+              width: 600px;
+              margin-bottom: 50px; " >
+             <a href="home.html">
+            <video class="thevideo" loop preload="none">
+                  <source src="video/siargao.mkv" type="video/mp4">
+
+                </video>
+
+              <figcaption>
+                <h3>Explore <span>Surigao del sur</span></h3>
+                <h4>
+               CARAGA
+                </h4>
+              </figcaption>
+                </a>
+            </figure>
 
 </div></div>
-<div class="jumbotron jumbotron-fullwidth background-colored text-light m-b-0 col-xs-12">
+<div class="jumbotron jumbotron-fullwidth background-colored text-dark m-b-0 col-xs-12">
   <div class="container">
 
   </br>
