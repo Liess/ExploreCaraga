@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ezplore CARAGA</title>
+<title>Explore CARAGA</title>
 
 <!-- Bootstrap -->
 <link rel="stylesheet" type="text/css" href="css/map/bootstrap.css">
@@ -91,12 +91,11 @@
 
   <div class="container page_info">
   <div class="col_md_12">
-  <img src="img/c_logo.jpg" alt="">
-  <h1>Kafema Coffee Kitchen Rules</h1>
+  <h1>Hinatuan Enchanted River</h1>
   <ul>
-  <li><a href="#">Coffee shop</a></li>
-  <li><a href="#">Gourment shop</a></li>
-  <li><a href="#">Cafe</a></li>
+  <li><a href="#">Tourist spot</a></li>
+  <li><a href="#">River</a></li>
+  <li><a href="#">Family</a></li>
   </ul>
   </div>
   </div>
@@ -107,154 +106,67 @@
   <div>
   <!--map place point-->
   <div class="address">
-  Mordovceva street, 6 (Up on"Semenovskaya"), 690091, Vladivostok
+Talisay, Hinatuan, Surigao del Sur , Mindanao , Philippines
   <span></span>
   </div>
   <div id="map_place" class="map_place"></div>
   <!--Similar Place-->
   <div class="similar">
-  <h3>Similar places:</h3>
+  <h3>About the place</h3>
   <div>
-  <img src="img/avatar/ava_11.jpg" alt="#">
-  <a href="#">Eataly NYC</a>
-  <i class="fa fa-thumbs-o-up"></i>34 likes
+
+The Hinatuan Enchanted River is a deep spring river on the island of Mindanao in the Philippines. It flows into the Philippine Sea and the Pacific Ocean at Barangay Talisay, Hinatuan, Surigao del Sur.The Hinatuan Enchanted River is a deep spring river on the island of Mindanao in the Philippines. It flows into the Philippine Sea and the Pacific Ocean at Barangay Talisay, Hinatuan, Surigao del Sur.
   </div>
-  <div>
-  <img src="img/avatar/ava_12.jpg" alt="#">
-  <a href="#">Cafe "Oki-Doki"</a>
-  <i class="fa fa-thumbs-o-up"></i>123 likes
-  </div>
-  <div>
-  <img src="img/avatar/ava_13.jpg" alt="#">
-  <a href="#">Num Pang Sandwich Shop</a>
-  <i class="fa fa-thumbs-o-up"></i>3 likes
-  </div>
-  <div>
-  <img src="img/avatar/ava_14.jpg" alt="#">
-  <a href="#">Dream Downtown</a>
-  <i class="fa fa-thumbs-o-up"></i>456 likes
-  </div>
-  <div>
-  <img src="img/avatar/ava_15.jpg" alt="#">
-  <a href="#">Central Park</a>
-  <i class="fa fa-thumbs-o-up"></i>698 likes
-  </div>
+
   </div>
   </div>
   </div>
   <!--content-->
   <div class="col-md-9 basic">
   <!--Header section-->
-  <div class="header_section">
+  <div class="header_section" style="background: url(../images/ssurigao.jpg) no-repeat center center; background-size: cover;">
   </div>
   <!--Phone info-->
   <div class="phone_email">
-  <span><i class="fa fa-phone"></i>8 (423) 249-96-69</span>
-  <span><i class="fa fa-globe"></i><a href="http://matart.ru">http://matart.ru</a></span>
+  <span><i class="fa fa-phone"></i>1 (123) 249-96-69</span>
+  <span><i class="fa fa-globe"></i><a href="http://facebook.com/Enchanted_river">http://facebook.com/Enchanted_river</a></span>
   </div>
-  <!--icon description block-->
-  <div class="icon_descr_block">
-  <div class="cols">
-  <div class="icons id_orange"><span class="ic"><i class="fa fa-comments-o"></i></span><span class="num">1034</span></div>
-  <div class="icons id_green"><span class="ic"><i class="fa fa-users"></i></span><span class="num">1034</span></div>
-  <div class="icons id_blue"><span class="ic"><i class="fa fa-globe"></i></span><span class="num">1034</span></div>
-  </div>
-  <div class="bubble"><div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<span></span></div></div>
-  </div>
+
   <!--Features info-->
   <div class="features_block">
   <div>
   <ul>
   <li>Hours: <b>Closed until 8:00am</b></li>
   <li>Reservations: <b>No</b></li>
-  <li>Menus: <b>Brunch</b></li>
+  <li>Specialty: <b>None</b></li>
   </ul>
   </div>
   <div>
   <ul>
-  <li>Credit Cards: <b>Yes (incl. Visa & MasterCard)</b></li>
+  <li>Entrance Fee: <b>Yes (80.00)</b></li>
   <li>Wi-Fi: <b>Yes</b></li>
   <li>Outdoor Seating: <b>No</b></li>
   </ul>
   </div>
   </div>
-  <!--Share this place btn and total visitors-->
-  <div class="share_block">
-  <div>
-  <a href="#" class="btn btn-success">Share this place</a>
-  </div>
-  <div>
-  <div>
-  <span>Total Visitors</span>
-  419 total
-  </div>
-  <div>
-  <span>Total Visitors</span>
-  419 total
-  </div>
-  </div>
-  </div>
-  <!--Check in-->
-  <div class="check_in">
-  <div>
-  <a href="03.html">Vlad Mickh</a> likes this place. Your Swarm friend <a href="03.html">Mattew</a> has checked in here.
-  <div class="users_group">
-  <!--user-->
-  <a href="03.html" class="user_avatars">
-  <div class="user_go">
-  <i class="fa fa-link"></i>
-  </div>
-  <img src="img/avatar/ava_3.jpg" alt=""></a>
-  <!--user-->
-  <a href="03.html" class="user_avatars">
-  <div class="user_go">
-  <i class="fa fa-link"></i>
-  </div>
-  <img src="img/avatar/ava_4.jpg" alt=""></a>
-  </div>
-  </div>
-  </div>
+
   <!--Mobile visibli-->
   <div class="mobile_place">
   <div class="address">
-  Mordovceva street, 6 (Up on"Semenovskaya"), 690091, Vladivostok</div>
-  <div class="similar">
-  <h3>Similar places:</h3>
-  <div>
-  <img src="img/avatar/ava_11.jpg" alt="#">
-  <a href="#">Cafe "Oki-Doki"</a>
-  <i class="fa fa-thumbs-o-up"></i>34 likes
+Talisay, Hinatuan, Surigao del Sur , Mindanao , Philippines</div>
+<div class="similar">
+<h3>About the place</h3>
+<div>
+
+The Hinatuan Enchanted River is a deep spring river on the island of Mindanao in the Philippines. It flows into the Philippine Sea and the Pacific Ocean at Barangay Talisay, Hinatuan, Surigao del Sur.The Hinatuan Enchanted River is a deep spring river on the island of Mindanao in the Philippines. It flows into the Philippine Sea and the Pacific Ocean at Barangay Talisay, Hinatuan, Surigao del Sur.
+</div>
+
+</div>
   </div>
-  <div>
-  <img src="img/avatar/ava_12.jpg" alt="#">
-  <a href="#">Cafe "Oki-Doki"</a>
-  <i class="fa fa-thumbs-o-up"></i>123 likes
-  </div>
-  <div>
-  <img src="img/avatar/ava_13.jpg" alt="#">
-  <a href="#">Cafe "Oki-Doki"</a>
-  <i class="fa fa-thumbs-o-up"></i>3 likes
-  </div>
-  <div>
-  <img src="img/avatar/ava_14.jpg" alt="#">
-  <a href="#">Cafe "Oki-Doki"</a>
-  <i class="fa fa-thumbs-o-up"></i>456 likes
-  </div>
-  <div>
-  <img src="img/avatar/ava_15.jpg" alt="#">
-  <a href="#">Cafe "Oki-Doki"</a>
-  <i class="fa fa-thumbs-o-up"></i>698 likes
-  </div>
-  </div>
-  </div>
-  <!--Flickr-->
-  <div class="flickr_photo">
-  <h4>Flickr stream</h4>
-  <ul id="basicuse" class="thumbs"></ul>
-  </div>
+
   <div class="reviews">
   <!--reviews-->
-  <h4>145 Reviews:</h4>
+  <h4>2 Reviews:</h4>
   <!--review-->
   <div class="rev">
   <div class="user">
@@ -263,11 +175,11 @@
   <div class="user_go">
   <i class="fa fa-link"></i>
   </div>
-  <img src="img/avatar/ava_3.jpg" alt=""></a>
+  <img src="images/glen.jpg" alt=""></a>
   </div>
   <div class="texts">
-  <div class="head_rev"><a href="03.html">Mattew An</a> <span>12.09.2008</span></div>
-  <div class="text_rev">Get a history lesson</div>
+  <div class="head_rev"><a href="03.html">Glen paglinawan</a> <span>22.07.2017</span></div>
+  <div class="text_rev">May sasabihin ako... Sobrang pogi ni ernest :"> </div>
   </div>
   </div>
   <!--review end-->
@@ -279,126 +191,16 @@
   <div class="user_go">
   <i class="fa fa-link"></i>
   </div>
-  <img src="img/avatar/ava_4.jpg" alt=""></a>
+  <img src="images/venmar.jpg" alt=""></a>
   </div>
   <div class="texts">
-  <div class="head_rev"><a href="03.html">Mattew An</a> <span>12.09.2008</span></div>
-  <div class="text_rev">Get a history lesson</div>
+  <div class="head_rev"><a href="03.html">Venmar vicente</a> <span>22.07.2017</span></div>
+  <div class="text_rev">Oo nga glen heheheh</div>
   </div>
   </div>
   <!--review end-->
-  <!--review-->
-  <div class="rev">
-  <div class="user"> <!--user avatar-->
-  <a href="03.html" class="user_avatars">
-  <div class="user_go">
-  <i class="fa fa-link"></i>
-  </div>
-  <img src="img/avatar/ava_5.jpg" alt=""></a></div>
-  <div class="texts">
-  <div class="head_rev"><a href="03.html">Mattew An</a> <span>12.09.2008</span></div>
-  <div class="text_rev">Get a history lesson on possibly the world's most famous beverage -- and sample Coca-Cola products from around the globe! Kids will love it...Get a history lesson on possibly the world's most famous beverage -- and sample Coca-Cola products from around the globe! Kids will love it...Get a history lesson on possibly the world's most famous beverage -- and sample Coca-Cola products from around the globe! Kids will love it...</div>
-  </div>
-  </div>
-  <!--review end-->
-  <!--review-->
-  <div class="rev">
-  <div class="user"> <!--user avatar-->
-  <a href="03.html" class="user_avatars">
-  <div class="user_go">
-  <i class="fa fa-link"></i>
-  </div>
-  <img src="img/avatar/ava_6.jpg" alt=""></a></div>
-  <div class="texts">
-  <div class="head_rev"><a href="03.html">Mattew An</a> <span>12.09.2008</span></div>
-  <div class="text_rev">Get a history lesson on possibly the world's most famous beverage</div>
-  </div>
-  </div>
-  <!--review end-->
-  <!--review-->
-  <div class="rev">
-  <div class="user"> <!--user avatar-->
-  <a href="03.html" class="user_avatars">
-  <div class="user_go">
-  <i class="fa fa-link"></i>
-  </div>
-  <img src="img/avatar/ava_7.jpg" alt=""></a></div>
-  <div class="texts">
-  <div class="head_rev"><a href="03.html">Mattew An</a> <span>12.09.2008</span></div>
-  <div class="text_rev">Get a history lesson</div>
-  </div>
-  </div>
-  <!--review end-->
-  <!--review-->
-  <div class="rev">
-  <div class="user"> <!--user avatar-->
-  <a href="03.html" class="user_avatars">
-  <div class="user_go">
-  <i class="fa fa-link"></i>
-  </div>
-  <img src="img/avatar/ava_8.jpg" alt=""></a></div>
-  <div class="texts">
-  <div class="head_rev"><a href="03.html">Mattew An</a> <span>12.09.2008</span></div>
-  <div class="text_rev">Get a history lesson on possibly the world's most famous beverage -- and sample Coca-Cola products from around the globe! </div>
-  </div>
-  </div>
-  <!--review end-->
-  <!--review-->
-  <div class="rev">
-  <div class="user"> <!--user avatar-->
-  <a href="03.html" class="user_avatars">
-  <div class="user_go">
-  <i class="fa fa-link"></i>
-  </div>
-  <img src="img/avatar/ava_9.jpg" alt=""></a></div>
-  <div class="texts">
-  <div class="head_rev"><a href="03.html">Mattew An</a> <span>12.09.2008</span></div>
-  <div class="text_rev">Get a history lesson on possibly the world's most famous beverage </div>
-  </div>
-  </div>
-  <!--review end-->
-  <!--review-->
-  <div class="rev">
-  <div class="user"> <!--user avatar-->
-  <a href="03.html" class="user_avatars">
-  <div class="user_go">
-  <i class="fa fa-link"></i>
-  </div>
-  <img src="img/avatar/ava_10.jpg" alt=""></a></div>
-  <div class="texts">
-  <div class="head_rev"><a href="03.html">Mattew An</a> <span>12.09.2008</span></div>
-  <div class="text_rev">Get a history lesson on possibly the world's most famous beverage -- and sample Coca-Cola products from around the globe! Kids will love it...</div>
-  </div>
-  </div>
-  <!--review end-->
-  <!--review-->
-  <div class="rev">
-  <div class="user"> <!--user avatar-->
-  <a href="03.html" class="user_avatars">
-  <div class="user_go">
-  <i class="fa fa-link"></i>
-  </div>
-  <img src="img/avatar/ava_11.jpg" alt=""></a></div>
-  <div class="texts">
-  <div class="head_rev"><a href="03.html">Mattew An</a> <span>12.09.2008</span></div>
-  <div class="text_rev">Get a history lesson on possibly </div>
-  </div>
-  </div>
-  <!--review end-->
-  <!--review-->
-  <div class="rev">
-  <div class="user"> <!--user avatar-->
-  <a href="03.html" class="user_avatars">
-  <div class="user_go">
-  <i class="fa fa-link"></i>
-  </div>
-  <img src="img/avatar/ava_12.jpg" alt=""></a></div>
-  <div class="texts">
-  <div class="head_rev"><a href="03.html">Mattew An</a> <span>12.09.2008</span></div>
-  <div class="text_rev">Get a history lesson on possibly the world's most famous beverage -- and sample Coca-Cola products from around the globe! Kids will love it...</div>
-  </div>
-  </div>
-  <!--review end-->
+
+
   <!--add comment-->
   <div class="add_comment">
   <h4>Add comment</h4>
