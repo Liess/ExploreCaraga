@@ -4,13 +4,18 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="images/favicon.ico" />
 <title>Explore CARAGA</title>
 
 <!-- Bootstrap -->
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="vendor/fontawesome/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+<link href="vendor/animateit/animate.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/map/bootstrap.css">
     <!--base and elements-->
     <link href="css/custom1.css" rel="stylesheet">
-
+    <!-- Responsive classes -->
+    <link href="css/responsive.css" rel="stylesheet">
 <!--Main styles-->
 <link rel="stylesheet" type="text/css" href="css/map/main.css">
 <link rel="stylesheet" type="text/css" href="css/map/adpative.css">
@@ -20,11 +25,16 @@
 <!--animation css-->
 <link rel="stylesheet" type="text/css" href="css/map/animate.css">
 <link rel="stylesheet" type="text/css" href="css/map/settings.css" media="screen">
+
+    <!--  color -->
+    <link href="css/color-variations/blue.css" rel="stylesheet" type="text/css" media="screen" title="blue">
    <!-- LOAD GOOGLE FONTS -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,800,700,600%7CRaleway:100,300,600,700,800" rel="stylesheet" type="text/css" />
+    <!--VENDOR SCRIPT-->
+    <script src="vendor/jquery/jquery-1.11.2.min.js"></script>
+    <script src="vendor/plugins-compressed.js"></script>
 </head>
-<body onload="initialize()" class="inner_page innerpag">
-
+<body onload="initialize()" class="wide inner_page innerpag">
 
 
 
@@ -57,13 +67,13 @@
           <div class="container">
             <nav id="mainMenu" class="main-menu mega-menu">
               <ul class="main-menu nav nav-pills">
-                <li><a href="index.html"><i class="fa fa-home"></i></a>
+                <li><a href="/">Home</a>
                 </li>
-                <li><a href="">About</a></li>
-                <li><a href="">Explore</a></li>
-                <li class="dropdown"> <a href="#">Provinces </a>
+                <li ><a href="">About</a></li>
+                <li> <a href="/Provinces">Provinces </a>
+                        <li class="active"><a href="/Map">Explore</a></li>
                 </li>
-                    <li class="dropdown"> <a href="#">Officials </a>
+
 
                 </li>
 
@@ -220,6 +230,11 @@ The Hinatuan Enchanted River is a deep spring river on the island of Mindanao in
 - SCRIPT FILES -
 #################################
 -->
+<!-- Theme Base, Components and Settings -->
+<script src="js/theme-functions.js"></script>
+
+<!-- Custom js file -->
+<script src="js/custom.js"></script>
 <!--Google maps API linl-->
 <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCsbzuJDUEOoq-jS1HO-LUXW4qo0gW9FNs"></script>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

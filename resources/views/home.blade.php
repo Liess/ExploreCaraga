@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
 
-<link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="images/favicon.ico" />
+
+
 
     <title>Explore CARAGA</title>
 
@@ -33,8 +34,8 @@
 	<![endif]-->
 
 
-    <!-- Template color -->
-    <link href="css/color-variations/blue-dark.css" rel="stylesheet" type="text/css" media="screen" title="blue">
+    <!--  color -->
+    <link href="css/color-variations/blue.css" rel="stylesheet" type="text/css" media="screen" title="blue">
 
     <!-- LOAD GOOGLE FONTS -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,800,700,600%7CRaleway:100,300,600,700,800" rel="stylesheet" type="text/css" />
@@ -100,13 +101,13 @@
 						<div class="container">
 							<nav id="mainMenu" class="main-menu mega-menu">
 								<ul class="main-menu nav nav-pills">
-									<li><a href="index.html"><i class="fa fa-home"></i></a>
+									<li class="active"><a href="/">Home</a>
 									</li>
 									<li><a href="">About</a></li>
-									<li><a href="">Explore</a></li>
-									<li class="dropdown"> <a href="#">Provinces </a>
+									<li> <a href="/Provinces">Provinces </a>
+                    			<li><a href="/Map">Explore</a></li>
 									</li>
-											<li class="dropdown"> <a href="#">Officials </a>
+
 
 									</li>
 
@@ -375,7 +376,7 @@
         </footer>
         <!-- END: FOOTER -->
 
-    </div>
+
     <!-- END: WRAPPER -->
 
     <!-- GO TOP BUTTON -->

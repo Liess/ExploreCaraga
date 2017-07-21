@@ -1,27 +1,3 @@
-/*------------------------------------------------------------------
-[Main.css]
-Project:        My city guide
-Version:        1
-Last change:    24/02/15
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[Table of contents]
-
-1. general styles / #general styles
-2. promo index page styles / #promo index page styles
-3. Map Page styles / #Map Page styles
-4. Inner (place) Page styles / #Inner (place) Page styles
-5. User Profile pages / #User Profile pages
-6. Place grid / #Place grid
-7. Blog page / #Blog page
-8. Post page / #Post page
-
--------------------------------------------------------------------*/
-
-
-/*------------------------------------------------------------------
-[1. general styles / #general styles]
-*/
 html,body {height:100%;}
 body {
     background: url(../img/start/bg.jpg);
