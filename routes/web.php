@@ -11,6 +11,7 @@
 |
 */
 
+//Website
 Route::get('/', function () {
     return view('home');
 });
@@ -40,4 +41,9 @@ Route::get('/TouristSpots', function () {
 });
 Route::get('/About', function () {
     return view('about');
+});
+
+//Admin panel
+Route::get('/Dashboard', function () {
+    return view('admin/dashboard');
 });
