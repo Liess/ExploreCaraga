@@ -82,6 +82,7 @@ a:hover {
     color: #83BCED;
 }
 .page_info ul li a:hover {color: #ffffff;}
+
 .page_info h1 {
     color: #ffffff;
     font-weight: 100;
@@ -1906,6 +1907,11 @@ a.green_btn:hover {
     color: #ffffff;
 }
 .places_cat li a:hover {
+    background: #218DEA;
+    color: #ffffff;
+    border-bottom: 1px solid #218DEA;
+}
+.places_cat li a.active {
     background: #218DEA;
     color: #ffffff;
     border-bottom: 1px solid #218DEA;

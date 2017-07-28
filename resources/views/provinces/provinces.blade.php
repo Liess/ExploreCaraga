@@ -157,7 +157,7 @@
     background-position: center;  background-size: cover;   border: 3px solid #2472a4;   height: 330px;
               width: 600px;
               margin-bottom: 50px; " >
-             <a href="home.html">
+             <a href="/Infos">
             <video class="thevideo" loop preload="none">
                   <source src="video/siargao.mkv" type="video/mp4">
 

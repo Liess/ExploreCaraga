@@ -21,9 +21,11 @@ Route::get('/Desc', function () {
     return view('Map/LocationDesc');
 });
 Route::get('/Provinces', function () {
-    return view('provinces');
+    return view('provinces/provinces');
 });
-
+Route::get('/Infos', function () {
+    return view('provinces/info');
+});
 Route::get('/About', function () {
     return view('about');
 });
