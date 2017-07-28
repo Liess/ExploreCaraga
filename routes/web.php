@@ -23,3 +23,7 @@ Route::get('/Desc', function () {
 Route::get('/Provinces', function () {
     return view('provinces');
 });
+
+Route::get('/About', function () {
+    return view('about');
+});
