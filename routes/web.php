@@ -29,6 +29,9 @@ Route::get('/Infos', function () {
 Route::get('/Facts', function () {
     return view('provinces/fact');
 });
+Route::get('/Natures', function () {
+    return view('provinces/nature');
+});
 Route::get('/About', function () {
     return view('about');
 });
