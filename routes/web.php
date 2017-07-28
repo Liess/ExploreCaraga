@@ -35,6 +35,9 @@ Route::get('/Natures', function () {
 Route::get('/Culture', function () {
     return view('provinces/culture');
 });
+Route::get('/TouristSpots', function () {
+    return view('provinces/tspots');
+});
 Route::get('/About', function () {
     return view('about');
 });
