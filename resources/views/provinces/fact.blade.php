@@ -96,7 +96,7 @@
 
   <div class="container page_info">
   <div class="col_md_12">
-  <h1>Basic information</h1>
+  <h1>Facts</h1>
   <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit leo. Sed arcu mauris, scelerisque vel auctor eget, bibendum eget turpis. Etiam vitae aliquam neque. Nam feugiat pharetra neque, at tristique ligula facilisis eget. Pellentesque risus ipsum, sollicitudin a sapien consequat, porttitor molestie erat. </p>
   </div>
   </div>
@@ -106,11 +106,11 @@
   <div class="col-md-3 mobile_none sidebar">
   <div class="affix-top" id="myAffix" data-spy="affix" data-offset-top="30" data-offset-bottom="20">
   <ul class="places_cat">
-  <li><a href="/Infos" class="shop active	"><i class="fa fa-info-circle"></i>Basic info</a></li>
-  <li><a href="/Facts" class="cinema"><i class="fa fa-exclamation-circle"></i>Facts</a></li>
-  <li><a href="/Natures" class="club"><i class="fa fa-leaf"></i>Natures</a></li>
-  <li><a href="/Culture" class="cafe"><i class="fa fa-male"></i>Culture</a></li>
-  <li><a href="/TouristSpots" class="sport"><i class="fa fa-map-marker"></i>Tourist spots</a></li>
+  <li><a href="/Infos" class=""><i class="fa fa-info-circle"></i>Basic info</a></li>
+  <li><a href="/Facts" class=" active	"><i class="fa fa-exclamation-circle"></i>Facts</a></li>
+  <li><a href="/Natures" class=""><i class="fa fa-leaf"></i>Natures</a></li>
+  <li><a href="/Culture" class=""><i class="fa fa-male"></i>Culture</a></li>
+  <li><a href="/TouristSpots" class=""><i class="fa fa-map-marker"></i>Tourist spots</a></li>
 
   </ul>
   </div>
@@ -118,19 +118,31 @@
   <!--content-->
   <div class="col-md-9 basic">
   <div class="place_li_cont">
-    <!--Blog post style vdk-->
-      <div class="post p_style_one vdk">
-      <div class="post_info">
-      <h2>Welcome to dinagat islands! <span></span></h2>
-      <div class="p_text">
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit leo. Sed arcu mauris, scelerisque vel auctor eget, bibendum eget turpis. Etiam vitae aliquam neque. Nam feugiat pharetra neque, at tristique ligula facilisis eget. Pellentesque risus ipsum, sollicitudin a sapien consequat, porttitor molestie erat.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit leo. Sed arcu mauris, scelerisque vel auctor eget, bibendum eget turpis. Etiam vitae aliquam neque. Nam feugiat pharetra neque, at tristique ligula facilisis eget. Pellentesque risus ipsum, sollicitudin a sapien consequat, porttitor molestie erat.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit leo. Sed arcu mauris, scelerisque vel auctor eget, bibendum eget turpis. Etiam vitae aliquam neque. Nam feugiat pharetra neque, at tristique ligula facilisis eget. Pellentesque risus ipsum, sollicitudin a sapien consequat, porttitor molestie erat.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit leo. Sed arcu mauris, scelerisque vel auctor eget, bibendum eget turpis. Etiam vitae aliquam neque. Nam feugiat pharetra neque, at tristique ligula facilisis eget. Pellentesque risus ipsum, sollicitudin a sapien consequat, porttitor molestie erat.    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit leo. Sed arcu mauris, scelerisque vel auctor eget, bibendum eget turpis. Etiam vitae aliquam neque. Nam feugiat pharetra neque, at tristique ligula facilisis eget. Pellentesque risus ipsum, sollicitudin a sapien consequat, porttitor molestie erat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit leo. Sed arcu mauris, scelerisque vel auctor eget, bibendum eget turpis. Etiam vitae aliquam neque. Nam feugiat pharetra neque, at tristique ligula facilisis eget. Pellentesque risus ipsum, sollicitudin a sapien consequat, porttitor molestie erat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit leo. Sed arcu mauris, scelerisque vel auctor eget, bibendum eget turpis. Etiam vitae aliquam neque. Nam feugiat pharetra neque, at tristique ligula facilisis eget. Pellentesque risus ipsum, sollicitudin a sapien consequat, porttitor molestie erat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit leo. Sed arcu mauris, scelerisque vel auctor eget, bibendum eget turpis. Etiam vitae aliquam neque. Nam feugiat pharetra neque, at tristique ligula facilisis eget. Pellentesque risus ipsum, sollicitudin a sapien consequat, porttitor molestie erat.
-      </div>
-      </div>
-      </div>
+  <!--Facts-->
+  <div class="pg style_list">
+  <div class="con">
+  <img src="images/durian.jpg" alt="">
+  <div class="content_li">
+  <h2><a href="02.html">Ang durian</a><span></span></h2>
+  <span>bow</span>
 
+  </div>
+  </div>
+  </div>
+  <!--Facts-->
+  <div class="pg style_list">
+  <div class="con">
+
+  <div class="content_li2">
+  <h2><a href="02.html">Fact mo to</a><span></span></h2>
+  <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit leo. Sed arcu mauris, scelerisque vel auctor eget, bibendum eget turpis. Etiam vitae aliquam neque. Nam feugiat pharetra neque, at tristique ligula facilisis eget. Pellentesque risus ipsum, sollicitudin a sapien consequat, porttitor molestie erat. </span>
+
+  </div>
+  </div>
+  </div>
+
+  </div>
+<a href="#" class="more_btn">Load more</a>
 <!--
 #################################
 - SCRIPT FILES -

@@ -2007,6 +2007,8 @@ a.green_btn:hover {
     border-top: 1px solid #E5E5E5;
     border-bottom: 1px solid #E5E5E5;
     overflow: hidden;
+    padding-top: 30px;
+padding-bottom: 30px;
 }
 
 .place_li_cont .comm i {
@@ -2034,6 +2036,11 @@ a.green_btn:hover {
 .content_li {
     float: none;
     margin-left: 240px;
+    padding-right: 30px;
+}
+.content_li2 {
+    float: none;
+    margin-left: 55px;
     padding-right: 30px;
 }
 .pg.style_list {
