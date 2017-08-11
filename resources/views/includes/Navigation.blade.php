@@ -18,10 +18,10 @@
                         
                         <li class="{{ Request::is('Dashboard') ? 'active' : ''}}"><a href="{{ URL::to( 'Dashboard') }}" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-home"></span><p>Dashboard</p></a></li>
                         <li><a href="#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-user"></span><p>Profile</p></a></li>
-                        <li class="droplink"><a href="#" class="waves-effect waves-button"><span class="menu-icon fa fa-wrench"></span><p>Maintenance</p><span class="arrow"></span></a>
+                        <li class="droplink {{ Request::is('Province', 'Cities' , 'tags' , 'Destinations') ? 'active open' : ''}}"><a href="#" class="waves-effect waves-button"><span class="menu-icon fa fa-wrench"></span><p>Maintenance</p><span class="arrow"></span></a>
                             <ul class="sub-menu">
-                                <li  class="{{ Request::is('Provinces') ? 'active' : ''}}"><a href="/Provinces">Provinces</a></li>
-                                <li><a href="#">Cities</a></li>
+                                <li  class="{{ Request::is('Province') ? 'active' : ''}}"><a href="/Province">Provinces</a></li>
+                                <li  class="{{ Request::is('Cities') ? 'active' : ''}}"><a href="/Cities">Cities</a></li>
                                 <li><a href="#">Tags</a></li>
                                 <li><a href="#">Destinations</a></li>
                             </ul>

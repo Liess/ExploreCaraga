@@ -11,27 +11,28 @@
         <meta name="keywords" content="admin,dashboard" />
         <meta name="author" content="Steelcoders" />
 
-        <!-- Styles -->
+         <!-- Styles -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
         <link href="admin/plugins/pace-master/themes/blue/pace-theme-flash.css" rel="stylesheet"/>
         <link href="admin/plugins/uniform/css/uniform.default.min.css" rel="stylesheet"/>
         <link href="admin/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="admin/plugins/fontawesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
-        <link href="admin/plugins/line-icons/simple-line-icons.css" rel="stylesheet" type="text/css"/>
-        <link href="admin/plugins/offcanvasmenueffects/css/menu_cornerbox.css" rel="stylesheet" type="text/css"/>
-        <link href="admin/plugins/waves/waves.min.css" rel="stylesheet" type="text/css"/>
+        <link href="admin/plugins/line-icons/simple-line-icons.css" rel="stylesheet" type="text/css"/>	
+        <link href="admin/plugins/offcanvasmenueffects/css/menu_cornerbox.css" rel="stylesheet" type="text/css"/>	
+        <link href="admin/plugins/waves/waves.min.css" rel="stylesheet" type="text/css"/>	
         <link href="admin/plugins/switchery/switchery.min.css" rel="stylesheet" type="text/css"/>
-        <link href="admin/plugins/3d-bold-navigation/css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="admin/plugins/3d-bold-navigation/css/style.css" rel="stylesheet" type="text/css"/>	
         <link href="admin/plugins/slidepushmenus/css/component.css" rel="stylesheet" type="text/css"/>
-        <link href="admin/plugins/weather-icons-master/css/weather-icons.min.css" rel="stylesheet" type="text/css"/>
-        <link href="admin/plugins/metrojs/MetroJs.min.css" rel="stylesheet" type="text/css"/>
-        <link href="admin/plugins/toastr/toastr.min.css" rel="stylesheet" type="text/css"/>
-
+        <link href="admin/plugins/datatables/css/jquery.datatables.min.css" rel="stylesheet" type="text/css"/>	
+        <link href="admin/plugins/datatables/css/jquery.datatables_themeroller.css" rel="stylesheet" type="text/css"/>	
+        <link href="admin/plugins/x-editable/bootstrap3-editable/css/bootstrap-editable.css" rel="stylesheet" type="text/css">
+        <link href="admin/plugins/bootstrap-datepicker/css/datepicker3.css" rel="stylesheet" type="text/css"/>
+        
         <!-- Theme Styles -->
         <link href="admin/css/modern.min.css" rel="stylesheet" type="text/css"/>
         <link href="admin/css/themes/green.css" class="theme-color" rel="stylesheet" type="text/css"/>
         <link href="admin/css/custom.css" rel="stylesheet" type="text/css"/>
-
+        
         <script src="admin/plugins/3d-bold-navigation/js/modernizr.js"></script>
         <script src="admin/plugins/offcanvasmenueffects/js/snap.svg-min.js"></script>
 
@@ -133,190 +134,20 @@
                     </div>
                 </div>
             </div><!-- Navbar -->
-            <div class="page-sidebar sidebar">
-                <div class="page-sidebar-inner slimscroll">
-                    <div class="sidebar-header">
-                        <div class="sidebar-profile">
-                            <a href="javascript:void(0);" id="profile-menu-link">
-                                <div class="sidebar-profile-image">
-                                    <img src="images/venmar.jpg" class="img-circle img-responsive" alt="">
-                                </div>
-                                <div class="sidebar-profile-details">
-                                    <span>Venmar Vicente<br><small>Admin</small></span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <ul class="menu accordion-menu">
-                        <li class="active"><a href="/Dashboard" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-home"></span><p>Dashboard</p></a></li>
-                        <li><a href="#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-user"></span><p>Profile</p></a></li>
-                        <li class="droplink"><a href="#" class="waves-effect waves-button"><span class="menu-icon fa fa-wrench"></span><p>Maintenance</p><span class="arrow"></span></a>
-                            <ul class="sub-menu">
-                                <li><a href="#">province</a></li>
-                            </ul>
-                        </li>
-                        <li class="droplink"><a href="#" class="waves-effect waves-button"><span class="menu-icon fa fa-book"></span><p>Pages</p><span class="arrow"></span></a>
-                        </li>
-                        <li class="droplink"><a href="#" class="waves-effect waves-button"><span class="menu-icon fa fa-binoculars"></span><p>Tourist spots</p><span class="arrow"></span></a>
-                        </li>
-                        <li class="droplink"><a href="#" class="waves-effect waves-button"><span class="menu-icon icon-map"></span><p>Maps</p><span class="arrow"></span></a>
-                        </li>
-
-                    </ul>
-                </div><!-- Page Sidebar Inner -->
-            </div><!-- Page Sidebar -->
+        @include('includes.Navigation')
             <div class="page-inner">
                 <div class="page-title">
-                    <h3>Dashboard</h3>
+                    @yield('Page title')
                     <div class="page-breadcrumb">
                         <ol class="breadcrumb">
-                            <li><a href="index.html">Home</a></li>
-                            <li class="active">Dashboard</li>
+                             @yield ('breadcrumb')
                         </ol>
                     </div>
                 </div>
                 <div id="main-wrapper">
                     <div class="row">
-                        <div class="col-lg-3 col-md-6">
-                            <div class="panel info-box panel-white">
-                                <div class="panel-body">
-                                    <div class="info-box-stats">
-                                        <p class="counter">107,200</p>
-                                        <span class="info-box-title">User activity this month</span>
-                                    </div>
-                                    <div class="info-box-icon">
-                                        <i class="icon-users"></i>
-                                    </div>
-                                    <div class="info-box-progress">
-                                        <div class="progress progress-xs progress-squared bs-n">
-                                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="panel info-box panel-white">
-                                <div class="panel-body">
-                                    <div class="info-box-stats">
-                                        <p class="counter">340,230</p>
-                                        <span class="info-box-title">Page views</span>
-                                    </div>
-                                    <div class="info-box-icon">
-                                        <i class="icon-eye"></i>
-                                    </div>
-                                    <div class="info-box-progress">
-                                        <div class="progress progress-xs progress-squared bs-n">
-                                            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="panel info-box panel-white">
-                                <div class="panel-body">
-                                    <div class="info-box-stats">
-                                        <p><span class="counter">47</span></p>
-                                        <span class="info-box-title">Tourist Spots</span>
-                                    </div>
-                                    <div class="info-box-icon">
-                                        <i class="fa  fa-binoculars"></i>
-                                    </div>
-                                    <div class="info-box-progress">
-                                        <div class="progress progress-xs progress-squared bs-n">
-                                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="panel info-box panel-white">
-                                <div class="panel-body">
-                                    <div class="info-box-stats">
-                                        <p class="counter">5</p>
-                                        <span class="info-box-title">Provinces</span>
-                                    </div>
-                                    <div class="info-box-icon">
-                                        <i class="fa fa-area-chart"></i>
-                                    </div>
-                                    <div class="info-box-progress">
-                                        <div class="progress progress-xs progress-squared bs-n">
-                                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- Row -->
-                    <div class="row">
-                        <div class="col-lg-9 col-md-12">
-                            <div class="panel panel-white">
-                                <div class="row">
-                                    <div class="col-sm-8">
-                                        <div class="visitors-chart">
-                                            <div class="panel-heading">
-                                                <h4 class="panel-title">Visitors</h4>
-                                            </div>
-                                            <div class="panel-body">
-                                                <div id="flotchart1"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="stats-info">
-                                            <div class="panel-heading">
-                                                <h4 class="panel-title">Browser Stats</h4>
-                                            </div>
-                                            <div class="panel-body">
-                                                <ul class="list-unstyled">
-                                                    <li>Google Chrome<div class="text-success pull-right">32%<i class="fa fa-level-up"></i></div></li>
-                                                    <li>Firefox<div class="text-success pull-right">25%<i class="fa fa-level-up"></i></div></li>
-                                                    <li>Internet Explorer<div class="text-success pull-right">16%<i class="fa fa-level-up"></i></div></li>
-                                                    <li>Safari<div class="text-danger pull-right">13%<i class="fa fa-level-down"></i></div></li>
-                                                    <li>Opera<div class="text-danger pull-right">7%<i class="fa fa-level-down"></i></div></li>
-                                                    <li>Mobile &amp; tablet<div class="text-success pull-right">4%<i class="fa fa-level-up"></i></div></li>
-                                                    <li>Others<div class="text-success pull-right">3%<i class="fa fa-level-up"></i></div></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="panel panel-white" style="height: 100%;">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">Server Load</h4>
-                                    <div class="panel-control">
-                                        <a href="javascript:void(0);" data-toggle="tooltip" data-placement="top" title="Expand/Collapse" class="panel-collapse"><i class="icon-arrow-down"></i></a>
-                                        <a href="javascript:void(0);" data-toggle="tooltip" data-placement="top" title="Reload" class="panel-reload"><i class="icon-reload"></i></a>
-                                    </div>
-                                </div>
-                                <div class="panel-body">
-                                    <div class="server-load">
-                                        <div class="server-stat">
-                                            <span>Total Usage</span>
-                                            <p>67GB</p>
-                                        </div>
-                                        <div class="server-stat">
-                                            <span>Total Space</span>
-                                            <p>320GB</p>
-                                        </div>
-                                        <div class="server-stat">
-                                            <span>CPU</span>
-                                            <p>57%</p>
-                                        </div>
-                                    </div>
-                                    <div id="flotchart2"></div>
-                                </div>
-                            </div>
-                        </div>
+                    @yield ('Content')
+                    </div>
                 </div><!-- Main Wrapper -->
                 <div class="page-footer">
                     <p class="no-s">2015 &copy; Modern by Steelcoders.</p>
@@ -382,7 +213,7 @@
         <div class="cd-overlay"></div>
 
 
-        <!-- Javascripts -->
+       <!-- Javascripts -->
         <script src="admin/plugins/jquery/jquery-2.1.4.min.js"></script>
         <script src="admin/plugins/jquery-ui/jquery-ui.min.js"></script>
         <script src="admin/plugins/pace-master/pace.min.js"></script>
@@ -395,18 +226,11 @@
         <script src="admin/plugins/offcanvasmenueffects/js/main.js"></script>
         <script src="admin/plugins/waves/waves.min.js"></script>
         <script src="admin/plugins/3d-bold-navigation/js/main.js"></script>
-        <script src="admin/plugins/waypoints/jquery.waypoints.min.js"></script>
-        <script src="admin/plugins/jquery-counterup/jquery.counterup.min.js"></script>
-        <script src="admin/plugins/toastr/toastr.min.js"></script>
-        <script src="admin/plugins/flot/jquery.flot.min.js"></script>
-        <script src="admin/plugins/flot/jquery.flot.time.min.js"></script>
-        <script src="admin/plugins/flot/jquery.flot.symbol.min.js"></script>
-        <script src="admin/plugins/flot/jquery.flot.resize.min.js"></script>
-        <script src="admin/plugins/flot/jquery.flot.tooltip.min.js"></script>
-        <script src="admin/plugins/curvedlines/curvedLines.js"></script>
-        <script src="admin/plugins/metrojs/MetroJs.min.js"></script>
-        <script src="admin/js/modern.js"></script>
-        <script src="admin/js/pages/dashboard.js"></script>
-
+        <script src="admin/plugins/jquery-mockjax-master/jquery.mockjax.js"></script>
+        <script src="admin/plugins/moment/moment.js"></script>
+        <script src="admin/plugins/datatables/js/jquery.datatables.min.js"></script>
+        <script src="admin/plugins/x-editable/bootstrap3-editable/js/bootstrap-editable.js"></script>
+        <script src="admin/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+        <script src="admin/js/pages/table-data.js"></script>
     </body>
 </html>

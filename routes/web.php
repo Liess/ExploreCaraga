@@ -48,3 +48,13 @@ Route::get('/About', function () {
 Route::get('/Dashboard', function () {
     return view('admin/dashboard');
 });
+
+// Maintenance
+
+Route::get('/Province', function () {
+    return view('admin/maintenance/province');
+});
+
+Route::get('/Cities', function () {
+    return view('admin/maintenance/cities');
+});
