@@ -58,3 +58,11 @@ Route::get('/Province', function () {
 Route::get('/Cities', function () {
     return view('admin/maintenance/cities');
 });
+
+Route::get('/Tags', function () {
+    return view('admin/maintenance/tags');
+});
+
+Route::get('/Destinations', function () {
+    return view('admin/maintenance/destinations');
+});

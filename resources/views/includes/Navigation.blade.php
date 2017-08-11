@@ -22,8 +22,8 @@
                             <ul class="sub-menu">
                                 <li  class="{{ Request::is('Province') ? 'active' : ''}}"><a href="/Province">Provinces</a></li>
                                 <li  class="{{ Request::is('Cities') ? 'active' : ''}}"><a href="/Cities">Cities</a></li>
-                                <li><a href="#">Tags</a></li>
-                                <li><a href="#">Destinations</a></li>
+                                <li class="{{ Request::is('Tags') ? 'active' : ''}}" ><a href="/Tags">Tags</a></li>
+                                <li class="{{ Request::is('Destinations') ? 'active' : ''}}"><a href="/Destinations">Destinations</a></li>
                             </ul>
                         </li>
                         <li class="droplink"><a href="#" class="waves-effect waves-button"><span class="menu-icon fa fa-book"></span><p>Pages</p><span class="arrow"></span></a>
