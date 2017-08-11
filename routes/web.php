@@ -44,6 +44,7 @@ Route::get('/About', function () {
 });
 
 //Admin panel
+
 Route::get('/Dashboard', function () {
     return view('admin/dashboard');
 });
