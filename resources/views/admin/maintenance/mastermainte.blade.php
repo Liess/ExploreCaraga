@@ -27,7 +27,8 @@
         <link href="admin/plugins/datatables/css/jquery.datatables_themeroller.css" rel="stylesheet" type="text/css"/>	
         <link href="admin/plugins/x-editable/bootstrap3-editable/css/bootstrap-editable.css" rel="stylesheet" type="text/css">
         <link href="admin/plugins/bootstrap-datepicker/css/datepicker3.css" rel="stylesheet" type="text/css"/>
-        
+
+        <link href="admin/plugins/select2/css/select2.min.css" rel="stylesheet" type="text/css"/>        
         <!-- Theme Styles -->
         <link href="admin/css/modern.min.css" rel="stylesheet" type="text/css"/>
         <link href="admin/css/themes/green.css" class="theme-color" rel="stylesheet" type="text/css"/>
@@ -232,5 +233,8 @@
         <script src="admin/plugins/x-editable/bootstrap3-editable/js/bootstrap-editable.js"></script>
         <script src="admin/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
         <script src="admin/js/pages/table-data.js"></script>
+        <script src="admin/plugins/select2/js/select2.min.js"></script>
+        <script src="admin/js/pages/form-select2.js"></script>
+
     </body>
 </html>
