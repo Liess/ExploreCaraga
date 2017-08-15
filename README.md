@@ -1,1 +1,1 @@
-## EXPLORE CARAGA. A project for web developing.
+## EXPLORE CARAGA. A project for web developing. by ernest , venmar and glen.
