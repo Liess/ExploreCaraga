@@ -4,7 +4,7 @@
   								<ul class="main-menu nav nav-pills">
   									<li><a href="/">Home</a>
   									</li>
-  									<li><a href="?About">About</a></li>
+  									<li><a href="/About">About</a></li>
   									<li class="active"> <a href="/Provinces">Provinces </a>
                       			<li><a href="/Map">Explore</a></li>
   									</li>
